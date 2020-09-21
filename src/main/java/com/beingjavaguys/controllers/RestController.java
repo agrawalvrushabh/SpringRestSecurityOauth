@@ -25,6 +25,9 @@ public class RestController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	@ResponseBody
 	public List<User> list() {
+		
+		System.out.println("inside the list new");
+		
 		return dataService.getUserList();
 
 	}
