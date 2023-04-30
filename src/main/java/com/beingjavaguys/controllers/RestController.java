@@ -26,7 +26,7 @@ public class RestController {
 	@ResponseBody
 	public List<User> list() {
 		
-		System.out.println("inside the list method");
+		System.out.println("inside the list method data");
 		
 		return dataService.getUserList();
 
